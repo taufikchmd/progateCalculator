@@ -80,6 +80,7 @@ percentages.addEventListener('click', (event) => {
     updateScreen(currentNumber)
 })
 
+
 const clearBtn = document.querySelector('.all-clear')
 
 clearBtn.addEventListener('click', () => {
