@@ -73,6 +73,13 @@ const calculate = () => {
     calculationOperator = ''
 }
 
+const percentage = document.querySelector('.percentage')
+
+percentage.addEventListener('click', (event) => {
+    calculate(currentNumber /= 100)
+    updateScreen(currentNumber)
+})
+
 const clearBtn = document.querySelector('.all-clear')
 
 clearBtn.addEventListener('click', () => {
